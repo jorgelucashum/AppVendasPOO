@@ -5,7 +5,7 @@ namespace AppVendasPOO.Entities
     {
         public int Quantity { get; set; }
         public double Price { get; set; }
-        public Product Product { get; set; }
+        public Product Product { get; set; } // Por lógica, a classe 'OrderItem' contém a 'Product' (para ficar mais organizado).
 
         public OrderItem()
         {

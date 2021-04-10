@@ -24,7 +24,7 @@ namespace AppVendasPOO.Entities
 
         public override string ToString()
         {
-            return $"{Name}, {BirthDate.ToString("dd/MM/yyyy")}, {Email}";
+            return $"{Name}, {BirthDate.ToString("dd/MM/yyyy")}, {Email}"; // 'ToString()' para o 'Client' retornar essa string. 
         }
     }
 }
